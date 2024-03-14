@@ -43,14 +43,29 @@ header {
     height: 10dvh;
     color: var(--blue-bayoux-100);
     width: 100dvw;
+    font-size: small;
     text-align: center;
-    font-size: x-small;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+h1 {
+    margin-bottom: 5px;
+}
+
+nav > a {
+    text-decoration: none;
+    background-color: var(--blue-bayoux-800);
+    color: var(--blue-bayoux-100);
+    padding: 0.25em;
+    border-radius: 0.5em;
+}
+
+nav > a:hover {
+    background-color: var(--blue-bayoux-950);
+}
 main {
     min-height: 85dvh;
     width: 100dvw;
@@ -70,7 +85,8 @@ main > img {
     width: 50dvw;
     margin: 2em;
     background-color: var(--blue-bayoux-950);
-    color: var(--blue-bayoux-100)
+    color: var(--blue-bayoux-100);
+    object-fit: cover;
 }
 
 main > p {
@@ -83,4 +99,8 @@ footer {
     color: var(--blue-bayoux-100);
     width: 100dvw;
     text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
