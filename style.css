@@ -51,7 +51,7 @@ header {
     align-items: center;
 }
 
-h1 {
+header > h1 {
     margin-bottom: 5px;
 }
 
