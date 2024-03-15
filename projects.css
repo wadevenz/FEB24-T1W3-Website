@@ -1,0 +1,37 @@
+
+
+.projectPreview > img {
+    height: 20dvh;
+    border-radius: 2em;
+}
+
+.projectPreview {
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1em;
+    margin: 2em;
+    padding: 1em;
+    border-radius: 1em;
+    background-color: var(--blue-bayoux-400);
+    /* filter: drop-shadow(1em 1em 5px var(--blue-bayoux-600))*/
+    box-shadow: 1em 1em var(--blue-bayoux-600)
+}
+
+.projectPreview:hover {
+    border-radius: 0%;
+}
+.projectPreview a:hover {
+    background-color: var(--blue-bayoux-500);
+}
+
+.projectPreview > a {
+    background-color: var(--blue-bayoux-200);
+    padding: 1em;
+    border-radius: 1em;
+}
+
+
+
