@@ -1,5 +1,9 @@
 
 
+#projectHeader {
+    font-size: x-large;
+}
+
 .projectPreview > img {
     height: 20dvh;
     border-radius: 2em;
@@ -33,5 +37,16 @@
     border-radius: 1em;
 }
 
+.projectPreview > section {
+    display: flex;
+    column-gap: 2em
+}
+
+.projectPreview > section > a {
+    background-color: var(--blue-bayoux-200);
+    padding: 1em;
+    border-radius: 1em;
+    border: 1px solid white;
+}
 
 
