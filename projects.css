@@ -1,7 +1,7 @@
 
 
 #projectHeader {
-    font-size: x-large;
+    font-size: 2em;
 }
 
 .projectPreview > img {
@@ -10,11 +10,13 @@
 }
 
 .projectPreview {
+    max-width: 60dvw;
     transition: 1s;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     row-gap: 1em;
     margin: 2em;
     padding: 1em;
@@ -49,4 +51,24 @@
     border: 1px solid white;
 }
 
+.contentRow {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    margin: 0;
+}
+/* Desktop view */
 
+@media screen and (min-width: 600px) {
+    .contentRow {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .projectPreview {
+        width: 30dvw;
+        margin: 1em;
+    }
+}
